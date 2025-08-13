@@ -1,0 +1,4 @@
+pandas
+Flask
+yt-dlp
+openpyxl
