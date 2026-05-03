@@ -15,6 +15,7 @@ def download_video_as_mp3(youtube_url, output_path='output'):
 
     # Define options for yt-dlp
     ydl_opts = {
+        'ffmpeg_location': r'C:\ffmpeg-2025-10-21-git-535d4047d3-essentials_build\bin\ffmpeg.exe',  # Specify the path to ffmpeg
         'format': 'bestaudio/best',
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',
